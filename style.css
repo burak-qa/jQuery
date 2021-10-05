@@ -21,3 +21,30 @@ header{
     color:black;
     background: aquamarine;
 }
+
+#box{
+    background:#333;
+    color:#fff;
+    width: 500px;
+    height: 90px;
+    padding: 40px;
+    text-align: center;
+}
+#box1{
+    background:rgb(77, 82, 77);
+    color:rgb(232, 232, 247);
+    width: 500px;
+    height: 90px;
+    padding: 40px;
+    text-align: center;
+}
+
+#box2{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 100px;
+    padding: 5%;
+    text-align: center;
+    position: relative;
+}
