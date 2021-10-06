@@ -129,4 +129,21 @@ $('#btn1').on('click', function(){
             top: 0
         });
     });
+
+    /* $('#result').load('test.html' , function(responseTxt, statusTxt, xhr){
+        if(statusTxt == "success"){
+            alert('It went fine!');
+        } else if (statusTxt == "error"){
+            alert("Error: "+xhr.statusText);
+        }
+    }); */
+    $.get('test.html' , function(data){
+        $('#result').html(data);
+    });
+
+    $.getJSON('users.json', function(data){
+        $.each(data, function(i, user){
+            $('ul#users').append(`<li> ${user.firstName} </li>`);
+        });
+    });
 });
