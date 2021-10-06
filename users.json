@@ -1,27 +1,27 @@
 [
     {
         "firstName": "Burak",
-        "lastname": "Sahin",
+        "lastName": "Sahin",
         "email" : "bsahin@gmail.com"
     },
     {
         "firstName": "Dila",
-        "lastname": "Cenk",
+        "lastName": "Cenk",
         "email" : "dcenk@gmail.com"
     },
     {
         "firstName": "Nic",
-        "lastname": "Yellow",
+        "lastName": "Yellow",
         "email" : "nyellow@gmail.com"
     },
     {
         "firstName": "William",
-        "lastname": "Vis",
+        "lastName": "Vis",
         "email" : "wvis@gmail.com"
     },
     {
         "firstName": "Alex",
-        "lastname": "Suza",
+        "lastName": "Suza",
         "email" : "asuza@gmail.com"
     }
 ]
